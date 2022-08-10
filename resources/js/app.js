@@ -1,3 +1,3 @@
 import './bootstrap';
 
-import './main/InertiaApp';
+ require('./main/InertiaApp');  
