@@ -18,5 +18,5 @@ use Inertia\Inertia;
 // Route::inertia('/', 'index');
 Route::get('/', function(){
     // return Inertia::render('Pages/index');
-    return Inertia::view("hello world");
+    return Inertia::render('Start');
 });
