@@ -16,7 +16,11 @@ use Inertia\Inertia;
 //     return view('welcome');
 // });
 // Route::inertia('/', 'index');
+// Route::get('/', function(){
+//     // return Inertia::render('Pages/index');
+//     return Inertia::render('Start');
+// });
+
 Route::get('/', function(){
-    // return Inertia::render('Pages/index');
-    return Inertia::render('Start');
+    return Inertia::render('Dashboard');
 });
