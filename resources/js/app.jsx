@@ -1,5 +1,6 @@
 import './bootstrap';
 import '../css/app.css';
+import '@coreui/coreui/dist/css/coreui.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React from 'react';

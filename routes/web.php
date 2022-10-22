@@ -12,15 +12,6 @@ use Inertia\Inertia;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-// Route::inertia('/', 'index');
-// Route::get('/', function(){
-//     // return Inertia::render('Pages/index');
-//     return Inertia::render('Start');
-// });
-
 Route::get('/', function(){
     return Inertia::render('Dashboard');
 });
